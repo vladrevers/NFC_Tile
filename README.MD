@@ -21,11 +21,11 @@ Primarily for stock Android devices (AOSP-based) like Google Pixel and others th
 
 ## Choosing a Version
 
-| Version | Android | Features |
-|---------|---------|----------|
-| [**Regular**](../../releases/latest/download/NFC_Tile.apk) | 7.0+ (API&nbsp;24+) | Launcher icon, instruction dialog for granting permission |
-| [**NoLauncher**](../../releases/latest/download/NFC_Tile_NoLauncher.apk) | 8.0+ (API&nbsp;26+) | No launcher icon, no instruction dialog |
-| [**NoLauncher_New**](../../releases/latest/download/NFC_Tile_NoLauncher_New.apk) | 8.0+ (API&nbsp;26+) | Same as NoLauncher, but without subtitle. For Android 16+ with the new Quick Settings design. If your system tiles don't have "On/Off" subtitles, use this version. See screenshots for details |
+| Version | Differences |
+|:-------:|-------------|
+| [**Regular**](../../releases/latest/download/NFC_Tile.apk)<br>Android&nbsp;7.0+ | Has launcher icon and instruction dialog for granting permission |
+| [**NoLauncher**](../../releases/latest/download/NFC_Tile_NoLauncher.apk)<br>Android&nbsp;8.0+ | No launcher icon, no instruction dialog |
+| [**NoSubtitle**](../../releases/latest/download/NFC_Tile_NoLauncher_New.apk)<br>Android&nbsp;8.0+ | Same as NoLauncher, but without subtitle. For Android 16+ with the new Quick Settings design. If your system tiles don't have "On/Off" subtitles, use this version. See screenshots for details |
 
 **Note:** On Android 8-11, subtitles are not displayed in any version due to Android's own limitations. Subtitles are available starting from Android 12.
 
@@ -81,7 +81,7 @@ After granting permission, you can safely turn off Wireless debugging, "Disable 
 
 #### For Android 8-16+
 
-After successfully granting permission, install **NoLauncher** (or **NoLauncher_New** for Android 16+) over the regular version.
+After successfully granting permission, install **NoLauncher** (or **NoSubtitle** for Android 16+) over the regular version.
 
 ### Step 5: Add the Tile to Quick Settings
 
